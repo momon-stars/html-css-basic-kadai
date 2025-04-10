@@ -31,7 +31,7 @@
         <h3>私のおすすめ和菓子アンケートフォーム</h3>
         <form action="#">
           <label for="name">氏名</label>
-          <input type="text" placeholder="名前を入力してください">
+          <input type="text" id="name" placeholder="名前を入力してください">
           <br>
           <label for="age">年代</label>
           <select name="age" id="age">
@@ -41,17 +41,14 @@
             <option value="40代以上">40代以上</option>
           </select>
           <br>
-          <label for="men">男性</label><input type="radio" name="gender">
-          <label for="woman">女性</label><input type="radio" name="gender">
+          <label for="men">男性</label><input type="radio" name="men">
+          <label for="woman">女性</label><input type="radio" name="woman">
           <label for="gender">その他</label><input type="radio" name="gender">
           <br>
-          <label for="name">おすすめ和菓子の名称</label><input type="text" placeholder="みたらし団子">
+          <label for="name">おすすめ和菓子の名称</label><input type="text" id="name" placeholder="例:みたらし団子">
           <br>
-          <label for="
-          reason">おすすめする理由</label>
-          <textarea name="
-          reason" id="
-          reason"></textarea>
+          <label for="reason">おすすめする理由</label>
+          <textarea name="reason" id="reason"></textarea>
           <br>
           <label for="">個人情報保護方針に同意する</label>
           <input type="checkbox">
