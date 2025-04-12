@@ -2,6 +2,7 @@
   width: 800px;
   background-color: #dcc9f4;
   padding: 20px 0;
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -15,7 +16,7 @@
 #middle {
   width: 800px;
   height: 800px;
-  margin: 20px 0;
+  margin: 20px auto;
   background-color: #ffd9df;
   position: relative;
 }
@@ -50,8 +51,7 @@
   width: 800px;
   height: 300px;
   background-color: #87ceeb;
-  
-  position: relative;
+  margin: 0 auto;
 }
 
 .bottom-child01,.bottom-child02,.bottom-child03 {
@@ -63,13 +63,11 @@
 }
 
 .bottom-child02 {
-  position: absolute;
+  position: relative;
   left: 200px;
-  top: 100px;
 }
 
 .bottom-child03 {
-  position: absolute;
-  top: 200px;
+  position: relative;
   left: 400px;
 }
