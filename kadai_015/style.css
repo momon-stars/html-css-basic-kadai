@@ -1,13 +1,10 @@
 body {
   font-family: "Arial","Meiryo",sans-serif;
-}
-
-root {
   font-size: 20px;
 }
 
 .blue {
-  color: #a0d8ef;
+  color: skyblue;
 }
 
 .pink {
@@ -17,7 +14,7 @@ root {
 h1 {
   font-family: "Josefin Sans", sans-serif;
   font-size: 2rem;
-  letter-spacing: 1.2rem;
+  letter-spacing: 1.2em;
   text-shadow: 5px 4px 2px rgb(222, 46, 46);
   border-bottom: 3px solid rgb(115, 115, 114);
 }
@@ -26,6 +23,6 @@ h1,h2,p {
   text-align: center;
 }
 
-div p {
+#basic > p {
   font-weight: bold;
 }
